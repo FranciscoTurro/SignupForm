@@ -5,7 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="right"></div>
+    <div id="left">
+      <form>
+        <fieldset>
+          <p>lets do it</p>
+
+          <label for="name">First name</label>
+          <input type="text" name="userName" id="name" />
+
+          <label for="lastName">Last name</label>
+          <input type="text" name="userLastName" id="lastName" />
+
+          <label for="email">Email</label>
+          <input type="email" name="userEmail" id="email" />
+
+          <label for="cel">Phone number</label>
+          <input type="tel" name="userCel" id="cel" />
+
+          <label for="pass1">Password</label>
+          <input type="password" name="userPass1" id="pass1" />
+
+          <label for="pass2">Confirm password</label>
+          <input type="password" name="userPass2" id="pass2" />
+        </fieldset>
+        <button type="submit">Create account</button>
+        <p>
+          Already have an account?
+          <a href="https://www.youtube.com/watch?v=fNcJuPIZ2WE&t=721s"
+            >Log in</a
+          >
+        </p>
+      </form>
+    </div>
+  </body>
 </html>
