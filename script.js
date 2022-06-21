@@ -14,6 +14,6 @@ function validateEquality(first, second, e) {
     e.preventDefault();
     pass1.className = "invalid";
     pass2.className = "invalid";
-    alert("Passwords must match");
+    alert("Keywords don't match");
   }
 }
