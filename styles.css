@@ -11,29 +11,25 @@
 }
 
 #right {
-  background-color: black;
-  min-width: 40vw;
-  min-height: 100vh;
+  width: 60vw;
+  height: 100vh;
 }
 
-#logo {
-  max-width: 50%;
-  position: relative;
-  top: 10%;
-  left: 22%;
+#left {
+  background-color: black;
+  width: 40vw;
+  height: 100vh;
 }
 
 #header {
-  padding-top: 120px;
-  padding-left: 3vw;
-  padding-bottom: 40px;
+  padding: 3vw;
+  padding-top: 6vw;
 }
 
 fieldset {
   padding-left: 3vw;
   border: 1px solid #d6d9dc;
   border-radius: 3px;
-  width: 60vw;
 }
 
 input {
@@ -58,4 +54,31 @@ input {
 
 h3 {
   margin-top: 10px;
+}
+
+button {
+  margin: 3vw;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.7em 3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+p {
+  margin-left: 3vw;
+}
+
+a {
+  color: red;
 }
