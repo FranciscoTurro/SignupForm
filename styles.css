@@ -11,7 +11,7 @@
 }
 
 #right {
-  background-image: url(/images/6f2d34fe6c8746c56c14fbc55308ef99.jpg);
+  background-color: black;
   min-width: 40vw;
   min-height: 100vh;
 }
@@ -25,15 +25,37 @@
 
 #header {
   padding-top: 120px;
-  padding-left: 30px;
+  padding-left: 3vw;
   padding-bottom: 40px;
 }
 
 fieldset {
-  padding-left: 30px;
+  padding-left: 3vw;
   border: 1px solid #d6d9dc;
   border-radius: 3px;
+  width: 60vw;
 }
 
 input {
+  display: block;
+  width: 350px;
+}
+
+#inputContainer {
+  display: flex;
+  gap: 100px;
+}
+
+#input1 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#input2 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 10px;
 }
