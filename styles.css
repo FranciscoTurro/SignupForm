@@ -80,5 +80,12 @@ p {
 }
 
 a {
+  color: black;
+}
+
+a:hover {
   color: red;
+}
+.invalid {
+  border-color: red;
 }
